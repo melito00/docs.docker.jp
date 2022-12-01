@@ -74,7 +74,7 @@ Docker のネットワーク機能（networking）サブシステムとは、ド
 
 ..    none: For this container, disable all networking. Usually used in conjunction with a custom network driver. none is not available for swarm services. See disable container networking.
 
-* ``none`` ：コンテナに指定すると、全てのネットワーク機能を無効化します。通常はカスタム・ネットワーク・ドライバとの競合を避けるために掴ます。 ``none`` は swarm サービスでは利用できません。 :doc:`コンテナ・ネットワーク機能の無効化 <none>` をご覧ください。
+* ``none`` ：コンテナに指定すると、全てのネットワーク機能を無効化します。通常はカスタム・ネットワーク・ドライバとの競合を避けるために使います。 ``none`` は swarm サービスでは利用できません。 :doc:`コンテナ・ネットワーク機能の無効化 <none>` をご覧ください。
 
 ..     Network plugins: You can install and use third-party network plugins with Docker. These plugins are available from Docker Hub or from third-party vendors. See the vendor’s documentation for installing and using a given network plugin.
 
